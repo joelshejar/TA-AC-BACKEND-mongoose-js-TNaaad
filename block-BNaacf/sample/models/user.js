@@ -6,5 +6,5 @@ var addressSchema = new Schema({
     city:String,
     state:String,
     pin:Number,
-    user:ObjectId
+    user:Schema.Types.ObjectId
 })
